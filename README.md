@@ -5,15 +5,16 @@ Spring Boot RESTful web application to add user into MySQL Database
 This is a Spring Boot web application, implementing RESTful web services to add a user into MySQL database with validation the input JSON and suitable response. 
 
 Validation Requirements:
-•	username, firstname, lastname and age are required
-•	username, firstname and lastname are Strings with maximum length of 50 characters
-•	age is an integer and cannot be negative
+
+- username, firstname, lastname and age are required
+- username, firstname and lastname are Strings with maximum length of 50 characters
+- age is an integer and cannot be negative
 
 
 # Prerequisites
-Java 1.8
-Maven 3.5.3
-MySQL database with table user with 4 columns username, firstname, lastname and age
+- Java 1.8
+- Maven 3.5.3
+- MySQL database with table user with 4 columns username, firstname, lastname and age
 
 # MySQL database configuration
 Database configurations can be change into application.yml file
