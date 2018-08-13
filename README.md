@@ -33,9 +33,9 @@ java -jar add-user-1.0.0-SNAPSHOT.jar
 # Call the RESTful Service
 After successfully run the backend server. Use any REST Client to call the REST Service as follow:
 
-
 POST http://localhost:8080/contactapi/user/add
 Content-Type: application/json
+
 body:
 {
 	"username": "TestUser1",
@@ -45,10 +45,10 @@ body:
 }
 
 # Possible responses of RESTful
-201   Created                 User has been successfully added
-409   Conflict                User name already exist
-400   Bad Request             Validation Failed
-500   Internal Server Error   Internal application error
+- 201   Created                 User has been successfully added
+- 409   Conflict                User name already exist
+- 400   Bad Request             Validation Failed
+- 500   Internal Server Error   Internal application error
 
 # Additional Info
 
